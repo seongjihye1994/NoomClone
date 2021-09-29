@@ -90,6 +90,5 @@ socket.on("room_change", (rooms) => { // room 상태가 바뀔때마다 rooms안
         const li = document.createElement("li");
         li.innerText = room;
         roomList.append(li);
-    })
+    });
 });
-
