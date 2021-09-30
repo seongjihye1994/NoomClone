@@ -2,7 +2,7 @@
 
 Zoom Clone using NodeJS, WebRTC and WebSocket
 
-### nodemon : 소스코드가 수정될 때마다 서버 자동으로 재시작
+#### nodemon : 소스코드가 수정될 때마다 서버 자동으로 재시작
 # 이 프로젝트에서는 "exec" : "babel-node src/server/js"로 명시되어 있는데, 소스코드가 변경될 때 마다 서버 재시작 대신 babel-node src/server.js 파일을 실행함.
 # babel-node 파일은 내가 작성한 js 문법의 코드를 일반적인 node.js 문법 코드로 변역해 주는 역할을 하며, src/server.js에 컴파일 해준다.
 # babel-node를 실행시키면 babel-node는 바로 babel.config.json을 찾고 babel.config.json 파일에서 코드에 적용해야 하는 presets을 실행
