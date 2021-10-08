@@ -17,8 +17,13 @@
     "nodemon": "^2.0.13"
   },
   "dependencies": {
+    "@socket.io/admin-ui": "^0.2.0",
+    "bootstrap": "^5.1.1",
     "express": "^4.17.1",
+    "jade-bootstrap": "^1.0.14",
+    "localtunnel": "^2.0.2",
     "pug": "^3.0.2",
-    "socket.io": "^4.2.0"
+    "socket.io": "^4.2.0",
+    "sweetalert2": "^11.1.7"
   }
 }

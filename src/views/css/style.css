@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/90/61/xL8qSF.jpg");
+    background-repeat: no-repeat;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: darkblue;
+    font-weight: bold;
+    text-shadow: darkgrey;
+}
+
+#title {
+    font-size: 100px;
+}
+
+#welcome{
+    text-align: center;
+}
+
+#welcome > div {
+    margin-top: 12%;
+}
+
+#call {
+    margin-left: 10px;
+}
+
+#component-container {
+    align-items: center;
+    text-align: center;
+    margin-left: 3px;
+    width: 99.6%;
+}
+
+#msg-container {
+    margin: 0 auto;
+    align-items: center;
+}
+
+#incomingMessages textarea {
+    resize: none;
+}
